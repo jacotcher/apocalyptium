@@ -1,9 +1,22 @@
-.background-image {
-  width: 100%;
+.apocolyptium-logo {
+    margin: auto;
+    text-align: center;
+    font-family: Copperplate;
+    font-size: 5em;
+    color: #dbdbdb;
 }
-.silhouette-image {
-  width: 50%;
-  position:fixed;
-  bottom:0px;
-  left: 0px;
+
+.description-text {
+    padding-top: 50px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+.video {
+    z-index: 100;
+    padding-top: 100px;
+    display: block;
+    text-align: center;
+    margin: auto;
 }

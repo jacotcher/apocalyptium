@@ -1,0 +1,11 @@
+.headerList a {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    width: 90%;
+    align-content: center;
+    margin: 50px;
+    text-align: right;
+}

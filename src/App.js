@@ -6,18 +6,23 @@ import {
     Route
 } from "react-router-dom";
 import Homepage from "./pages/Homepage/Homepage";
+import Footer from "./pages/Footer/Footer";
+import Header from "./pages/Header/Header";
 
 
 function App() {
     return (
         <div className="App">
-            <Router>
-                <Routes>
-                    <Route path="/" element={<Homepage />}/>
-                </Routes>
-            </Router>
+            <div className="app">
+                <Header/>
+                <Router>
+                    <Routes>
+                        <Route path="/" element={<Homepage/>}/>
+                    </Routes>
+                </Router>
+                <Footer/>
+            </div>
         </div>
-
     );
 }
 
