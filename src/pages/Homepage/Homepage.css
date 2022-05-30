@@ -1,0 +1,9 @@
+.background-image {
+  width: 100%;
+}
+.silhouette-image {
+  width: 50%;
+  position:fixed;
+  bottom:0px;
+  left: 0px;
+}
